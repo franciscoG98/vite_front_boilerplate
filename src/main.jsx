@@ -8,11 +8,16 @@ import './assets/styles/global.scss'
 
 // views
 import Home from './views/Home.jsx'
+import AboutUs from './views/AboutUs.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/about-us",
+    element: <AboutUs />,
   },
 ]);
 

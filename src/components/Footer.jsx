@@ -7,7 +7,6 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <h3>Follow US!</h3>
       <section className="section__social">
         <FaWhatsapp size={30} />
         <FaInstagram size={30} />

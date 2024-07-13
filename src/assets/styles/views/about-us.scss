@@ -1,0 +1,18 @@
+.container--about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section--about {
+  display: flex;
+  gap: 3rem;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.section__children {
+  width: 320px;
+}
