@@ -9,6 +9,7 @@ import './assets/styles/global.scss'
 // views
 import Home from './views/Home.jsx'
 import AboutUs from './views/AboutUs.jsx'
+import Products from './views/Products.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/about-us",
     element: <AboutUs />,
+  },
+  {
+    path: "/products",
+    element: <Products />,
   },
 ]);
 

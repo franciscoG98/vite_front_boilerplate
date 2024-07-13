@@ -38,7 +38,7 @@ const Navbar = () => {
           nav_items.map((i, idx) => (
             <Link
               key={idx}
-              to={i.path}
+              to={`/${i.path}`}
               className='nav__item'
             >{i.slug}</Link>
           ))
