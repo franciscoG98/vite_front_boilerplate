@@ -1,0 +1,18 @@
+.footer {
+  bottom: 0;
+  border-top: 1px solid var(--color-light-grey);
+  height: fit-content;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.section__social {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.footer__copyright {
+  font-size: .8rem;
+}
