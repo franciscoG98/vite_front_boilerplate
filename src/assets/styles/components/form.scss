@@ -1,0 +1,20 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form__fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  border: 1px solid var(--color-light-grey);
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+.form__btn {
+  margin: 1rem auto;
+}
