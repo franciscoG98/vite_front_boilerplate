@@ -10,6 +10,7 @@ import './assets/styles/global.scss'
 import Home from './views/Home.jsx'
 import AboutUs from './views/AboutUs.jsx'
 import Products from './views/Products.jsx'
+import Faq from './views/Faq.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/products",
     element: <Products />,
+  },
+  {
+    path: "/faq",
+    element: <Faq />,
   },
 ]);
 

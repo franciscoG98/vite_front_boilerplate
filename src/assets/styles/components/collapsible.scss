@@ -1,0 +1,21 @@
+.collapsible {
+  width: 100%;
+}
+
+.header__collapsible {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.title__collapsible {
+  font-weight: bold;
+}
+
+.collapsible__btn {
+  border: none;
+}
+
+.collapsible__children {
+  border-bottom: 1px solid var(--color-light-grey);
+}
